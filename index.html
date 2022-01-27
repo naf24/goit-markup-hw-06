@@ -469,12 +469,11 @@
       </section>
 
     </main>
-    <!--Футер-->
+   <!--Футер-->
     
     <footer class="footer">
       <div class="container footer-body">
         <!--обертка-->
-
         <div class="footer-left">
           <div class="footer-logo">
             <a href="" class="logo-footer">Web<span>Studio</span></a>
@@ -500,7 +499,6 @@
             </li>
           </ul>
         </div>
-
         <div class="footer-socialmedia">
             <h3 class="join">ПРИСОЕДИНЯЙТЕСЬ</h3>
             <ul class="join-sociallinks">
@@ -538,13 +536,30 @@
                   </a>
               </li>
             </ul>
-          </div>
         </div>
+        <form class="footer-form">
+          <label class="footer-form__field">
+            <span class="footer-form__label">Подпишитесь на рассылку</span>
+            <input
+              type="email"
+              name="email"
+              class="footer-form__input"
+              placeholder="E-mail"
+            />
+          </label>
+
+          <button type="submit" class="footer-form__button">
+            <span>Подписаться</span>
+            <svg class="footer-form__icon" width="24px" height="24px">
+              <use href="./imgs/icons.svg/sprite.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
 
     <!-- Модальное окно -->
-    
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal__button" data-modal-close>
